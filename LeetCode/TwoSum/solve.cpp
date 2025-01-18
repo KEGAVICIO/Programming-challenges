@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 #include <algorithm> // to use std::find
 using namespace std;
 
@@ -36,3 +37,29 @@ public:
     return res;
   }
 };
+
+int main(){
+  Solution sol;
+  vector<int> nums;
+  vector<int> numsres;
+  int tam, target;
+
+  cout<<"Cuantos numeros meteras: ";
+  cin>> tam;
+
+  for(int i = 0; i<tam; i++)
+  {
+    cout<<"Ingresa numero: ";
+    cin>>target;
+    nums.push_back(target);
+  }
+  cout<<"Ingresa numero objetivo: ";
+  cin>>target;
+
+  numsres = sol.twoSum(nums, target);
+  cout<<"Valores de los indices"<<endl;
+  for(int j : numsres)
+  {
+    cout<<j<<" ";
+  }
+}
