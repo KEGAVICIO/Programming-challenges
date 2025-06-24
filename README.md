@@ -48,8 +48,8 @@ If you'd like to contribute and help others learn, you're more than welcome to o
 
 - Language: **C++17**  
 - Compilers: `g++`, `clang++`  
-- IDE: VS Code / CLion  
-- OS: Linux (Kali, Ubuntu), Windows (WSL compatible)  
+- IDE: VS Code / CLion / VIM / NVIM
+- OS: Linux (Kali, Ubuntu), Windows (WSL compatible), Windows
 
 ---
 
