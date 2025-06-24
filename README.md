@@ -15,8 +15,8 @@ If you'd like to contribute and help others learn, you're more than welcome to o
 ├── LeetCode/
 │   ├── ValidParentheses/
 │   │   ├── Problem.txt       # Brief description of the problem
-│   │   ├── Solve.cpp         # C++ solution
-│   │   ├── Solve.py          # (Optional) Python solution
+│   │   ├── Solve_KEGA.cpp         # C++ solution rename with your name
+│   │   ├── Solve_KEGA.py          # (Optional) Python solution
 │   ├── TwoSum/
 │   │   └── ...
 │
